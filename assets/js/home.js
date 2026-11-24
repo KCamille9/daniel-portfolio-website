@@ -10,7 +10,7 @@ for(var i=0;i<5;i++){c.insertAdjacentHTML("beforeend","<article class='case'><sp
 
 var el=document.querySelector('.ef.l'),er=document.querySelector('.ef.r');function ef(){el.style.opacity=c.scrollLeft>8?1:0;er.style.opacity=c.scrollLeft+c.clientWidth<c.scrollWidth-8?1:0}c.addEventListener('scroll',ef);window.addEventListener('resize',ef);ef();
 var tr=document.getElementById("dirtrack");Array.prototype.slice.call(tr.children).forEach(function(c){var n=c.cloneNode(true);n.setAttribute("aria-hidden","true");tr.appendChild(n)});
-var T=[["“Marcus bypassed the standard strategy presentations and went straight to fixing our lead pipeline. Within 60 days, acquisition costs fell 40% while volume spiked.”","Camille Alvarado · Web & UX Designer, Platform Accounting Group"]],k=0;
+var T=[["“Daniel bypassed the standard strategy presentations and went straight to fixing our lead pipeline. Within 60 days, acquisition costs fell 40% while volume spiked.”","Camille Alvarado · Web & UX Designer, Platform Accounting Group"]],k=0;
 function show(){document.getElementById("q").textContent=T[k][0];document.getElementById("who").textContent=T[k][1]}
 show();
 
